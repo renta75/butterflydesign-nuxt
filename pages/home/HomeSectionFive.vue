@@ -67,8 +67,8 @@
                 </div>
 
                 <div class="section5__contact__buttons">
-                    <NuxtLink :to="{ path: '/contact', hash: '#contact_form_anchor' }" class="section5__button-email"><img src="@/assets/Button-Email.svg" alt="" class="section5__contact__icon"><span>contact@butterfly.design</span></NuxtLink>
-                    <NuxtLink :to="{ path: '/contact', hash: '#contact_form_anchor' }" class="section5__button-phone"><img src="@/assets/Button-Phone.svg" alt="" class="section5__contact__icon phone-icon"><span>+353 879827181</span></NuxtLink>
+                    <NuxtLink :to="{ path: '/contact', hash: '#contact_form_anchor' }" class="section5__button-email"><img src="@/assets/Button-Email.svg" alt="" class="section5__contact__icon"><span>info@butterflydesign.hr</span></NuxtLink>
+                    <NuxtLink :to="{ path: '/contact', hash: '#contact_form_anchor' }" class="section5__button-phone"><img src="@/assets/Button-Phone.svg" alt="" class="section5__contact__icon phone-icon"><span>+385914777020</span></NuxtLink>
                 </div>
             </div>
         </div>

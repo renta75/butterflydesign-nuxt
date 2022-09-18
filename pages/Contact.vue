@@ -10,7 +10,7 @@
         <div class="contact__contact-info__letsmeet">
             <img src="@/assets/contact/LetsMeet.png" alt="" class="contact__contact-info__image">
             <h3 class="contact__contact-info__heading">LET'S MEET</h3>
-            <p class="contact__contact-info__text">Senjska 125, HR-47303 Josipdol, Croatia</p>
+            <p class="contact__contact-info__text">Trnjanska cesta 63, HR-10000 Zagreb, Croatia</p>
             <p class="contact__contact-info__pink">+385914777020</p>
         </div>
         <div class="contact__contact-info__hireus">
