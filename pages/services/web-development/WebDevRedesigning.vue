@@ -1,0 +1,38 @@
+<template>
+    <div>
+        <h2 class="web-development__main-section__heading">Website redesign</h2>
+        <p class="web-development__main-section__subheading">
+            When a website it’s not bringing the desired results or the design layout it’s old or does
+            not represent the company anymore, low visitors or not user-friendly it is time for a new
+            design. When a website doesn’t accomplish your goals or the layout is not user-friendly
+            it is time for a change. Bad site mapping, lack of quality content, pages or features hard
+            to find, poor usability or old SEO practices which brings low search engine rankings are
+            elements that shouldn’t be present in your website.
+        </p>
+
+        <h2 class="web-development__main-section__h2">Steps we take when <span class="rozo">We</span> redesign a website</h2>
+
+        <div class="web-development__main-section__list-wrapper">
+            <ul class="web-development__main-section__list">
+                <li class="web-development__main-section__list-item">Audit the current website</li>
+                <li class="web-development__main-section__list-item">Competition analysis</li>
+                <li class="web-development__main-section__list-item">Target market analysis</li>
+                <li class="web-development__main-section__list-item">New cunctionality requested</li>
+            </ul>
+            <ul class="web-development__main-section__list">
+                <li class="web-development__main-section__list-item">Graphics optimization and content</li>
+                <li class="web-development__main-section__list-item">Basic search engine optimization</li>
+                <li class="web-development__main-section__list-item">Future goals recommendations</li>
+                <li class="web-development__main-section__list-item">Marketing strategy suggestions</li>
+            </ul>
+        </div>
+
+        
+    </div>
+</template>
+
+<script>
+export default {
+    name: 'WebDevRedesigning'
+}
+</script>
