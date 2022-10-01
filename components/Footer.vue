@@ -48,104 +48,103 @@
 </template>
 
 <style lang="scss">
-@import '@/assets/scss/_variables.scss';
-@import '@/assets/scss/_mixins.scss';
+    @import '@/assets/scss/_variables.scss';
+    @import '@/assets/scss/_mixins.scss';
+    
+    .footer {
+        background: #130037;
+        margin-top: 5rem;
 
-.footer {
-    background: #130037;
-    margin-top: 5rem;
-    display: none;
-    &__logo {
-        width: 100%;
-        height: 100%;
-        max-height: 8rem;
-        max-width: 12rem;
-        padding-top: 1rem;
-    }
-
-    &__wrapper {
-            display: none;
-        justify-content: space-between;
-    }
-
-    &__services-heading {
-        color: #ff18f7;
-        font-family: 'Colombo';
-        font-size: 1.25rem;
-        text-transform: uppercase;
-        margin: 3rem 0 1rem;
-    }
-
-    &__text {
-        color: $white;
-        display: block;
-        padding: .25rem 0;
-        text-decoration: none;
-        transition: 0.16s;
-    }
-    &__text:hover {
-        color: #16ffff;
-        cursor: pointer;
-
-    }
-
-    &__newsletter-field {
-        display: flex;
-    }
-
-    input {
-        flex: 0 0 75%;
-        background: #231051;
-        color: white;
-        box-shadow: none;
-        border: none;
-        border-radius: 6px;
-        margin-top: .25rem;
-        margin-bottom: 1rem;
-        padding: .5rem;
-    }
-
-    ::placeholder {
-        color: white;
-    }
-
-    &__button {
-        @include button;
-        height: 2rem;
-        border-radius: 6px;
-        padding: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: .25rem;
-    }
-
-    &__icons {
-		display: flex;
-        justify-content: center;
-        padding-top: 2rem;
-
-		img {
+        min-height: calc(100vh - 100px)
+        &__logo {
             width: 100%;
             height: 100%;
-			max-width: 2rem;
-			margin-right: 1rem;
-		}
-	}
-
-    &__copy {
-        text-align: center;
-        color: $white;
-        padding: 2rem 0;
-    }
-}
-
-
-@media only screen and (max-width: 767px) {
-    .footer {
+            max-height: 8rem;
+            max-width: 12rem;
+            padding-top: 1rem;
+        }
+    
         &__wrapper {
-            display: none;
+            display: flex;
+            justify-content: space-between;
+        }
+    
+        &__services-heading {
+            color: #ff18f7;
+            font-family: 'Colombo';
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            margin: 3rem 0 1rem;
+        }
+    
+        &__text {
+            color: $white;
+            display: block;
+            padding: .25rem 0;
+            text-decoration: none;
+            transition: 0.16s;
+        }
+        &__text:hover {
+            color: #16ffff;
+            cursor: pointer;
+        }
+    
+        &__newsletter-field {
+            display: flex;
+        }
+    
+        input {
+            flex: 0 0 75%;
+            background: #231051;
+            color: white;
+            box-shadow: none;
+            border: none;
+            border-radius: 6px;
+            margin-top: .25rem;
+            margin-bottom: 1rem;
+            padding: .5rem;
+        }
+    
+        ::placeholder {
+            color: white;
+        }
+    
+        &__button {
+            @include button;
+            height: 2rem;
+            border-radius: 6px;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: .25rem;
+        }
+    
+        &__icons {
+            display: flex;
+            justify-content: center;
+            padding-top: 2rem;
+    
+            img {
+                width: 100%;
+                height: 100%;
+                max-width: 2rem;
+                margin-right: 1rem;
+            }
+        }
+    
+        &__copy {
+            text-align: center;
+            color: $white;
+            padding: 2rem 0;
         }
     }
-}
-</style>
+    @media only screen and (max-width: 767px) {
+        .footer {
+            &__wrapper {
+                display: none;
+            }
+        }
+    }
+    </style>
+

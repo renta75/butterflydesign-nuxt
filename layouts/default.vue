@@ -4,7 +4,7 @@
     <transition name="fade" mode="out-in" >
       <Nuxt />
     </transition>
-    <footer-global />
+    <footer-global class="footer" />
   </div>
 </template>
 
