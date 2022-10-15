@@ -13,6 +13,7 @@ phases:
     commands:
       - echo Build Phase
       - npm run build
+      - npm run generate
   post_build:
     commands:
       - echo PostBuild Phase
