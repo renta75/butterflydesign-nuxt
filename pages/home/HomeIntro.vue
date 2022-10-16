@@ -7,7 +7,7 @@
           Design
         </h2>
         <h3 class="home__hero-section-subheading">
-          Creative solutions for smart businesses
+          Product development studio
         </h3>
       </div>
 
