@@ -7,7 +7,7 @@
           Design
         </h2>
         <h3 class="home__hero-section-subheading">
-          Product development studio
+          Digital Platforms Development Studio
         </h3>
       </div>
 
