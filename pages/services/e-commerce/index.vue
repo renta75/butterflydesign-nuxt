@@ -12,9 +12,7 @@
     <ecommerce-inline-boxes></ecommerce-inline-boxes>
 
     <ecommerce-store-features></ecommerce-store-features>
-
     
-
     <ecommerce-other-services></ecommerce-other-services>
   </div>
 </template>
@@ -364,7 +362,9 @@ export default {
                 font-size: 2rem;
             }
             video {
-                width: 100%;
+                width: 80%;
+                display: block;
+                margin: 0 auto;
             }
         }
 
@@ -431,6 +431,26 @@ export default {
             }
         }
     }
+    .e-com-header{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .e-content{
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+    .section-accordions__image{
+        width: 100%;
+    }
+}
+.e-content{
+    color: white;
+    
+}
+.e-com-header{    
+    display: block;
+    text-transform: uppercase;
 }
 
 </style>

@@ -2,7 +2,7 @@
     <div>
         <div class="container about__intro-wrapper">
             <div class="about__title-wrapper">
-                <h1 class="about__h1 animate__animated animate__fadeInLeft">ABOUT US</h1>
+                <h1 class="about__h1 animate__animated animate__fadeInLeft">GET TO KNOW US</h1>
             </div>
         </div>
 
@@ -12,17 +12,13 @@
                     Why Butterfly Design?
                 </h2>
                 <p class="about__large-butterfly__text">
-                    We believe in process of metamorphoses. Like the ugly
-                    caterpillar at first, we believe in transforming our
-                    societies into beautiful butterfly.
+                    Butterflies are strikingly beautiful but also very useful creatures. Our goal is to combine that beauty and functionality in the digital world.
                 </p>
             </div>
-
             <img src="@/assets/about-us/PAGE-AboutUs-Butterfly.png" alt="" class="about__large-butterfly__img">
         </div>
     </div>
 </template>
-
 <script>
 export default {
     name: 'AboutIntro'

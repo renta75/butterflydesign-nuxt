@@ -9,7 +9,8 @@
         <div class="about__contact">
             <h2>THE CONTACT BUTTON IS RIGHT HERE</h2>
 
-            <NuxtLink :to="{ path: '/contact', hash: '#contact_form_anchor' }" class="about__button"><span>Contact us</span></NuxtLink>
+            <NuxtLink :to="{ path: '/contact', hash: '#contact_form_anchor' }" class="about__button"><span>LET’S MAKE <br> SOMETHING GREAT
+</span></NuxtLink>
         </div>
     </div>
 </template>
@@ -64,14 +65,15 @@ export default {
             font-size: 2rem;
             font-family: 'MyriadPro';
             padding-top: 2rem;
-            width: 75%;
+            width: 100%;
+            line-height: 150%;
         }
 
         &__img {
             width: 100%;
-            max-width: 30rem;
+            max-width: 20rem;
             position: absolute;
-            right: 15rem;
+            left: 80%;
             top: 10rem;
         }
     }
@@ -151,7 +153,7 @@ export default {
         p {
             font-size: 1.25rem;
             font-family: 'Montserrat';
-
+            line-height: 150%;
             &:nth-of-type(2) {
                 margin-top: 2rem;
             }
@@ -225,7 +227,7 @@ export default {
             &__img {
                 max-width: 20rem;
                 top: 15rem;
-                right: 0;
+                left: 60%;
             }
         }
 
@@ -301,9 +303,10 @@ export default {
             }
 
             &__img {
-                max-width: 15rem;
-                top: 15rem;
-                right: -5rem;
+                max-width: 5rem;
+                top:48%;
+                right: 0;
+                left: 55%;
             }
         }
 
@@ -335,6 +338,7 @@ export default {
             h2 {
                 font-size: 1.25rem;
                 top: 0;
+             
             }
         }
 

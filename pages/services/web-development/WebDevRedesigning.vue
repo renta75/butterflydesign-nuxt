@@ -2,12 +2,8 @@
     <div>
         <h2 class="web-development__main-section__heading">Website redesign</h2>
         <p class="web-development__main-section__subheading">
-            When a website it’s not bringing the desired results or the design layout it’s old or does
-            not represent the company anymore, low visitors or not user-friendly it is time for a new
-            design. When a website doesn’t accomplish your goals or the layout is not user-friendly
-            it is time for a change. Bad site mapping, lack of quality content, pages or features hard
-            to find, poor usability or old SEO practices which brings low search engine rankings are
-            elements that shouldn’t be present in your website.
+            A lot of businesses don’t consider their website to be outdated, and if you do, and it is, that is already an awesome step in the right direction for your business. Trends and technologies change, and our users' preferences do too. That is why we help our clients give their content and platforms a fresh new look by combining state-of-the-art technology, and a little bit of user psychology. Bring a positive feeling to your users every time they see your content. Let’s launch your business into the stars!
+
         </p>
 
         <h2 class="web-development__main-section__h2">Steps we take when <span class="rozo">We</span> redesign a website</h2>

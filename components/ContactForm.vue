@@ -7,14 +7,14 @@
     <div class="contact-form__wrapper">
       <div class="contact-form__frm-wrapper">
         <form action="#">
-          <input type="text" placeholder="Your appreciated name" />
+          <input type="text" placeholder="Your name" />
           <input type="text" placeholder="Your@awesome.email" />
           <textarea
             name=""
             id=""
             cols="30"
             rows="10"
-            placeholder="Your finest message"
+            placeholder="Let us know how we can help"
           ></textarea>
         </form>
 
@@ -34,7 +34,7 @@
           Share your excitement with us.
         </h3>
         <p class="contact-form__info__text">
-          You can also check us out and follow us on social media
+          You can also check us out and follow us on social media  Follow our socials! We post all our exciting stuff on there!
         </p>
 
         <div class="contact-form__icons">
@@ -115,6 +115,7 @@
     &__text {
       color: $white;
       font-family: "MyriadPro";
+      line-height: 150%;
       padding: 2rem 0;
     }
   }

@@ -7,7 +7,7 @@
           Design
         </h2>
         <h3 class="home__hero-section-subheading">
-          Product development studio
+          Where digital products morph into art.
         </h3>
       </div>
 

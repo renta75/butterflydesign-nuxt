@@ -1,6 +1,6 @@
 <template>
     <div class="ecommerce__bottom-section__other-services">
-        <h2 class="ecommerce__bottom-section__other-services-h2">Check other services</h2>
+        <h2 class="ecommerce__bottom-section__other-services-h2">Our other services</h2>
 
         <div class="ecommerce__bottom-section__other-services-wrapper">
             <NuxtLink to="/services/web-development" class="ecommerce__bottom-section__other-service">

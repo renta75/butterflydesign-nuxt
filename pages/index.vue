@@ -110,11 +110,11 @@ export default {
     }
 
     &__hero-section-butterfly-image {
-        width: 960px;
+        width: 50%;
         position: absolute;
         z-index: 10;
-        top: 8.5rem;
-        right: -220px;
+        top: 17.5rem;
+        left: 40%;
     }
 }
 
@@ -389,7 +389,7 @@ export default {
         }
 
         &__hero-section-butterfly-image {
-            width: 40rem;
+            width: 37rem;
         }
     }
 
@@ -427,7 +427,7 @@ export default {
         padding: 10rem 1rem 0;
 
         &__hero-section-butterfly-image {
-            width: 40rem;
+        
         }
 
         &__hero-section-wrapper {
@@ -697,9 +697,10 @@ export default {
     .home {
         &__hero-section-butterfly-image {
             display: block;
-            width: 560px;
-            right: -360px;
-            top: 13rem;
+            width: 50%;
+       
+           top: 23rem;
+        
         }
 
         &__hero-section-h1 {
@@ -747,9 +748,9 @@ export default {
     .home {
         &__hero-section-butterfly-image {
             display: block;
-            width: 520px;
-            right: -325px;
-            top: 9rem;
+            width: 40%;
+            left: 50%;
+            top: 15rem;
             z-index: -1;
         }
 
@@ -800,6 +801,6 @@ export default {
 }
 
 .makni {
-    opacity: 0;
+    display: none;
 }
 </style>
