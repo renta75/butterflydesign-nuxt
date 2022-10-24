@@ -1,7 +1,7 @@
 <template>
     <div class="web-development__intro">
         <div class="container">
-            <video autoplay muted loop src="@/assets/web-development/WebDevelopment.mp4"></video>
+            <video autoplay muted loop src="@/assets/web-development/WebDevelopment.mp4" poster="@/assets/web-development/WebDevelopment.png"></video>
             <div class="web-development__intro__text-wrapper" >
                 <h2 class="web-development__intro__heading animate__animated animate__backInRight naslov">BEST WEB DEVELOPMENT SOLUTIONS</h2>
                 <p class="web-development__intro__text">

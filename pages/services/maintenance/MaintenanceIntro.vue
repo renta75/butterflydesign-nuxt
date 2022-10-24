@@ -1,7 +1,7 @@
 <template>
     <div class="maintenance__intro">
         <div class="container">
-            <video autoplay muted loop src="@/assets/maintenance/Maintenance.mp4"></video>
+            <video autoplay muted loop src="@/assets/maintenance/Maintenance.mp4" poster="@/assets/maintenance/Maintenance.png"></video>
             <div class="maintenance__intro__text-wrapper">
                 <h2 class="maintenance__intro__heading animate__animated animate__backInRight">MAINTENANCE</h2>
                 <h3 class="maintenance__intro__subheading">Don’t let your website crash. We can fix any problem in a flash.</h3>

@@ -1,7 +1,7 @@
 <template>
     <div class="e-commerce__intro">
         <div class="container">
-            <video autoplay muted loop src="@/assets/e-commerce/eCommerce.mp4"></video>
+            <video autoplay muted loop src="@/assets/e-commerce/eCommerce.mp4" poster="@/assets/e-commerce/eCommerce.png"></video>
             <div class="e-commerce__intro__text-wrapper">
                 <h2 class="e-commerce__intro__heading animate__animated animate__backInRight">E COMMERCE</h2>
                 <h3 class="e-commerce__intro__subheading">Online shops that customers love</h3>
