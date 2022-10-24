@@ -2,7 +2,7 @@
   <div class="website-wrapper">
     <header-global class="header"/>
     <transition name="fade" mode="out-in" >
-      <Nuxt @hook:rendered="makeSomeStuff" />
+      <Nuxt @hook:mounted="makeSomeStuff" />
     </transition>
     <footer-global v-if="mounted" class="footer"  />
   </div>

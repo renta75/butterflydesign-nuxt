@@ -4,8 +4,8 @@
 		<div class="container footer__wrapper">
             <div class="footer__logo-wrapper">
                 <img alt="Logo" src="@/assets/footer-logo.svg" class="footer__logo" width="">
-                <span class="footer__text">contact@butterflydesign.hr</span>
-                <span class="footer__text">Senjska 125, HR-47303 Josipdol, Croatia</span>
+                <span class="footer__text">info@butterflydesign.hr</span>
+                <span class="footer__text">Trnjanska cesta 63, HR-10000 Zagreb, Croatia</span>
                 <span class="footer__text">+385914777020</span>
             </div>
 
