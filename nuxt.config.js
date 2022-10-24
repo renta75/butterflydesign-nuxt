@@ -13,7 +13,6 @@ export default {
     ],
     link: [{ rel: 'icon', type: 'image/png', href: '/icon.png' }],
   },
-
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ['animate.css'],
 

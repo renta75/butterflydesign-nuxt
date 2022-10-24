@@ -59,6 +59,7 @@
   max-width: 1200px;
   margin: 0 auto;
   height: 70vh;
+  margin-bottom: 15%;
 
   &__heading {
     font-size: 2rem;

@@ -26,8 +26,10 @@ export default {
       webDevImages: () => import('./WebDevImages.vue'),
       webDevRedesigning: () => import('./WebDevRedesigning.vue'),
       webDevOtherServices: () => import('./WebDevOtherServices.vue'),
-  }
+  },
+  scrollToTop: true
 }
+
 </script>
 
 <style lang="scss">

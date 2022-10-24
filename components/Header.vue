@@ -59,6 +59,7 @@
 
 <script>
 export default {
+    scrollToTop: true,
     name: 'header-component',
     data() {
         return {

@@ -29,7 +29,9 @@ export default {
         homeSectionFive: () => import('./home/HomeSectionFive.vue'),
         contactForm: () => import('@/components/ContactForm.vue'),
     },
+    
     layout: 'default',
+    scrollToTop: true
 };
 
 
@@ -166,12 +168,11 @@ export default {
         text-align: center;
         color: $white;
         width: 80%;
-        margin-top: 15px 15px;
-
+        margin-top: 45px;
         text-decoration: none;
         padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
 
+        
     }
 }
 
@@ -420,6 +421,10 @@ export default {
         padding-left: 1rem;
         padding-right: 1rem;
     }
+    .laptop__text{
+        height: 13em;
+    }
+ 
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -516,8 +521,19 @@ export default {
     .contact-section {
         padding: 0 1rem;
     }
+    .laptop__link{
+        margin-top: 0px !important;
+    }
 }
+@media only screen and (max-width: 1000px) {
+    .laptop__image{
+        width: 80%;
+    }
+    .laptop{
+        width: 100vw;
+    }
 
+}
 
 @media only screen and (max-width: 767px) {
     .home {
@@ -691,6 +707,10 @@ export default {
             }
         }
     }
+    .laptop__link{
+        margin-top: 0px;
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width: 425px) and (max-width: 767px) {
@@ -793,6 +813,9 @@ export default {
 
     .section2 {
         margin-top: 8rem;
+    }
+    .laptop__text{
+       height: 13rem;
     }
 }
 
