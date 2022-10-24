@@ -5,7 +5,7 @@
         </video>
         <div class="container section3__section3-wrapper">
             <div class="section3__title-wrapper">
-                <h1 class="section3__section3-h1">We help smart</h1>
+                <h1 class="section3__section3-h1">HERE TO HELP YOUR</h1>
                 <h2 class="section3__section3-h2">businesses succeed</h2>
             </div>
             <div class="section3__section3-content-wrapper">
@@ -13,36 +13,36 @@
                     <div class="section3__box-wrapper-row">
                         <div class="section3__box">
                             <h3 class="section3__box-heading">
-                                QUICK PRICE QUOTES
+                                INDIVIDUAL APPROACH
                             </h3>
                             <p class="section3__box-text">
-                                Quick understanding of the scope of your project and a quick detailed quote.
+                                We don’t recycle, our goal is to create products unique to your business.
                             </p>
                         </div>
                         <div class="section3__box">
                             <h3 class="section3__box-heading">
-                                Fixed pricing
+                                KNOW YOUR PRICE
                             </h3>
                             <p class="section3__box-text">
-                                Fixed price for your project, no upselling or offers on not requested products.
+                                Make yourself comfortable and know the price in advance with no upselling.
                             </p>
                         </div>
                     </div>
                     <div class="section3__box-wrapper-row">
                         <div class="section3__box">
                             <h3 class="section3__box-heading">
-                                Personal services
+                                FROM START TO FINISH
                             </h3>
                             <p class="section3__box-text">
-                                One person is in charge of your project, no need to explain the same thing twice.
+                                We offer every client full support from an idea to a business masterpiece.
                             </p>
                         </div>
                         <div class="section3__box">
                             <h3 class="section3__box-heading">
-                                Long term partner
+                                LONG TERM PARTNER
                             </h3>
                             <p class="section3__box-text">
-                                Not just a vendor, long term partner helping in any way we can.
+                                There is no shot term in business success, that is why we are always here to help.
                             </p>
                         </div>
                     </div>

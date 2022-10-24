@@ -9,21 +9,19 @@
     <div class="container contact__contact-info">
         <div class="contact__contact-info__letsmeet">
             <img src="@/assets/contact/LetsMeet.png" alt="" class="contact__contact-info__image">
-            <h3 class="contact__contact-info__heading">LET'S MEET</h3>
+            <h3 class="contact__contact-info__heading">LETS MEET  VISIT US</h3>
             <p class="contact__contact-info__text">Trnjanska cesta 63, HR-10000 Zagreb, Croatia</p>
-            <p class="contact__contact-info__pink">+385914777020</p>
+ 
         </div>
         <div class="contact__contact-info__hireus">
             <img src="@/assets/contact/HireUs.png" alt="" class="contact__contact-info__image">
-            <h3 class="contact__contact-info__heading">HIRE US!</h3>
-            <p class="contact__contact-info__text">Send us your brief, we’re ready</p>
-            <p class="contact__contact-info__pink">info@butterflydesign.hr</p>
+            <h3 class="contact__contact-info__heading">HIRE US!  LET’S TALK</h3>
+<p class="contact__contact-info__text">Ready to bring your product to life? We are too</p>
         </div>
         <div class="contact__contact-info__creative">
             <img src="@/assets/contact/Creative.png" alt="" class="contact__contact-info__image image-position">
-            <h3 class="contact__contact-info__heading">CREATIVE?</h3>
-            <p class="contact__contact-info__text">Pro at your area? We’re all ears</p>
-            <p class="contact__contact-info__pink">Let’s be partners</p>
+            <h3 class="contact__contact-info__heading">CREATIVE? WANT TO JOIN US?</h3>
+            <p class="contact__contact-info__text">Think you got what it takes? Hit us up!</p>
         </div>
     </div>
 

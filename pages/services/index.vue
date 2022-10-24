@@ -2,8 +2,8 @@
   <div class="services">
     <div class="container services-intro__wrapper">
         <div class="services-intro__title-wrapper">
-            <h1 class="services-intro__h1">SERVICES THAT TAKE</h1>
-            <h2 class="services-intro__h2 animate__animated animate__backInLeft">YOUR BUSINESS TO THE NEXT LEVEL</h2>
+            <h1 class="services-intro__h1">SERVICES THAT LAUNCH</h1>
+            <h2 class="services-intro__h2 animate__animated animate__backInLeft">YOUR BUSINESS ABOVE THE COMPETITION</h2>
         </div>
     </div>
 
@@ -72,6 +72,7 @@ export default {
         &__text {
             color: $white;
             font-family: 'Montserrat';
+            line-height: 150%;
         }
 
         &__link {
@@ -156,6 +157,7 @@ export default {
 	}
 	&__box-text {
 		color: $white;
+        line-height: 130%;
 		font-family: 'Montserrat';
 	}
 	&__buttons {
@@ -309,6 +311,7 @@ export default {
             }
         }
     }
+ 
 }
 
 </style>

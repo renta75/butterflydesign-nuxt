@@ -29,7 +29,9 @@ export default {
         homeSectionFive: () => import('./home/HomeSectionFive.vue'),
         contactForm: () => import('@/components/ContactForm.vue'),
     },
+    
     layout: 'default',
+    scrollToTop: true
 };
 
 
@@ -110,11 +112,11 @@ export default {
     }
 
     &__hero-section-butterfly-image {
-        width: 960px;
+        width: 50%;
         position: absolute;
         z-index: 10;
-        top: 8.5rem;
-        right: -220px;
+        top: 17.5rem;
+        left: 40%;
     }
 }
 
@@ -166,12 +168,11 @@ export default {
         text-align: center;
         color: $white;
         width: 80%;
-        margin-top: 15px 15px;
-
+        margin-top: 45px;
         text-decoration: none;
         padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
 
+        
     }
 }
 
@@ -389,7 +390,7 @@ export default {
         }
 
         &__hero-section-butterfly-image {
-            width: 40rem;
+            width: 37rem;
         }
     }
 
@@ -420,6 +421,10 @@ export default {
         padding-left: 1rem;
         padding-right: 1rem;
     }
+    .laptop__text{
+        height: 13em;
+    }
+ 
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -427,7 +432,7 @@ export default {
         padding: 10rem 1rem 0;
 
         &__hero-section-butterfly-image {
-            width: 40rem;
+        
         }
 
         &__hero-section-wrapper {
@@ -516,8 +521,19 @@ export default {
     .contact-section {
         padding: 0 1rem;
     }
+    .laptop__link{
+        margin-top: 0px !important;
+    }
 }
+@media only screen and (max-width: 1000px) {
+    .laptop__image{
+        width: 80%;
+    }
+    .laptop{
+        width: 100vw;
+    }
 
+}
 
 @media only screen and (max-width: 767px) {
     .home {
@@ -691,15 +707,20 @@ export default {
             }
         }
     }
+    .laptop__link{
+        margin-top: 0px;
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width: 425px) and (max-width: 767px) {
     .home {
         &__hero-section-butterfly-image {
             display: block;
-            width: 560px;
-            right: -360px;
-            top: 13rem;
+            width: 50%;
+       
+           top: 23rem;
+        
         }
 
         &__hero-section-h1 {
@@ -747,9 +768,9 @@ export default {
     .home {
         &__hero-section-butterfly-image {
             display: block;
-            width: 520px;
-            right: -325px;
-            top: 9rem;
+            width: 40%;
+            left: 50%;
+            top: 15rem;
             z-index: -1;
         }
 
@@ -793,6 +814,9 @@ export default {
     .section2 {
         margin-top: 8rem;
     }
+    .laptop__text{
+       height: 13rem;
+    }
 }
 
 .section5 .elevated-boxes__wrapper p {
@@ -800,6 +824,6 @@ export default {
 }
 
 .makni {
-    opacity: 0;
+    display: none;
 }
 </style>

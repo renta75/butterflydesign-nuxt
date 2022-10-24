@@ -7,7 +7,7 @@
           Design
         </h2>
         <h3 class="home__hero-section-subheading">
-          Digital Platforms Development Studio
+          Where digital products morph into art.
         </h3>
       </div>
 
@@ -29,12 +29,7 @@ export default {
     return {
       anim: null,
     };
-  },
-  methods: {
-    handleAnimation: function (anim) {
-      this.anim = anim;
-    },
-  },
+  }
 };
 
 </script>

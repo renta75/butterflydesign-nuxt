@@ -11,10 +11,7 @@
                         />
                         <h3>Why butterfly design?</h3>
                         <p>
-                            We believe in process of metamorphoses. Like the ugly caterpillar at first,
-                            we believe in transforming our societies into beautiful butterfly. People and
-                            organizations will come to us to transform their current stage of visual
-                            identity or products.
+                            Butterflies go through complete metamorphosis. This means that there are five parts in a butterfly's life just as we believe there are five main points in a majorly successful design: research, ideation, realization, implementation, and testing.
                         </p>
                     </div>
                     <div class="elevated-boxes__elevated-box">
@@ -23,16 +20,9 @@
                             src="@/assets/Home-Target.png"
                             alt=""
                         />
-                        <h3>Mission and goals</h3>
+                        <h3>MISSION AND VISION</h3>
                         <p>
-                            To help adding value to your business
-                            through digital design solutions and
-                            related services by providing original
-                            solutions to all types of businesses and
-                            making the creative process as simple as
-                            possible and understandable for people f
-                            rom all areas of expertise.
-
+                            Studies have shown that design has a major impact on business success. That is why our mission is to help set businesses up for victory. No matter the age, tech intellect, or other specifics of your users, we create products that accommodate every person.
                         </p>
                     </div>
                     <div>
@@ -41,29 +31,26 @@
                             src="@/assets/Home-Puzzle.png"
                             alt=""
                         />
-                        <h3>About butterfly design</h3>
+                        <h3>ABOUT US</h3>
                         <p>
-                            We are looking to make a big impact on people's lives, small and medium
-                            businesses, helping businesses and
-                            individuals to get their own place online, we are going
-                            beyond expectations
-                            and always overdeliver.
+                            We love to help small and medium-sized businesses receive awesome products and realize they can have a major impact by implementing banging visual identities online. Overdelivering is our standard because we don’t just work for our clients, we truly care for their success.
+
                         </p>
                     </div>
                 </div>
             </div>
 
             <div class="section5__contact">
-                <NuxtLink to="/about" class="section5__button"><span>About us</span></NuxtLink>
+                <NuxtLink to="/about" class="section5__button"><span>GET TO KNOW US</span></NuxtLink>
 
-                <h3 class="section5__contact__heading">Let's build something great together</h3>
+                <h3 class="section5__contact__heading">Let’s build outstanding products together</h3>
 
                 <div class="section5__contact__text">
-                    <span>Call back assistance</span>
-                    <span class="section5__contact__slash"></span>
                     <span>Project consulting</span>
                     <span class="section5__contact__slash"></span>
-                    <span>Detailed project estimate</span>
+                    <span>Product reviving</span>
+                    <span class="section5__contact__slash"></span>
+                    <span>Long term support</span>
                 </div>
 
                 <div class="section5__contact__buttons">

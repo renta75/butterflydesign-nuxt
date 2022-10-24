@@ -8,39 +8,25 @@
         <carousel :per-page="1" :mouse-drag="false">
             <slide>
                 <div class="container about__carousel-slider">
-                    <h2>ONE STORY FROM BALKAN’S PENSINSULA</h2>
+                    <h2>WHERE WE CAME FROM</h2>
                     <p>
-                        There was one land so called Yugoslavia. The one was made of 7 nations and 3 religions. There where no country like this in the world by its structure. Yugoslav communist’s leader Tito leads the nations since his death. When Tito dies the dark sided members of communist party take a lead. The Yugoslavia ended in bloody and cruel war between nations.
-                    </p>
-
-                    <p>
-                        Darkness of the war in Yugoslavia is still present with scarfs they leaved.
-                        Three current countries were vastly damaged in the war:
-                    </p>
-
-                    <ul>
-                        <li>Bosnia and Herzegovina</li>
-                        <li>Croatia</li>
-                        <li>Serbia</li>
-                    </ul>
-
-                    <p>That is where we came from...</p>
+                      Butterfly Design was born in a beautiful European country called Croatia. A small place with worldwide recognition for its natural beauty and the striking Adriatic Sea. This was the starting point that inspired us to take inspiration from art made by nature, just like butterflies. Nature creates extraordinary beings that combine beauty and functionality just as we combine those elements in every digital product we create.
+</p>
                 </div>
             </slide>
             <slide>
                 <div class="container about__carousel-slider">
-                    <h2>FOR GOOD TIMES AHEAD OF US</h2>
+                    <h2>VALUES</h2>
                     <p>
-                        We believe in the good times ahead of us. So, we founded the Butterfly design
-                        to be the medium for regional cooperation between intelligent creative people.
-                        We believe that free open-minded people exist in every country, and we want to cooperate.
+                        We believe in productivity driven by a positive attitude. That means that we like to make our work environment as positive as humanly possible by putting a smile on our client’s faces and celebrating every success along the way with them.
+
                     </p>
 
-                    <p>In what we believe:</p>
+                    <p>Beliefs:</p>
                     <ul>
-                        <li>- We believe in top skilled us. Our works shows a “little” bit of that...</li>
-                        <li>- We are “crazy” about our job. Just look at this design, it’s outstanding</li>
-                        <li>- We are brave and bold. We never give-up!</li>
+                        <li>- Looking at our client as an individual first, and as a business second</li>
+                        <li>- Having contagious enthusiasm about every new project</li>
+                        <li>- Bringing together innovative technology and user psychology</li>
                     </ul>
                 </div>
             </slide>

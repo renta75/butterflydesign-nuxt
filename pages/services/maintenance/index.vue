@@ -7,7 +7,7 @@
 
         <maintenance-images></maintenance-images>
 
-        <h2 class="maintenance__main-section__other-services-h2">Pick the right plan for you</h2>
+        <h2 class="maintenance__main-section__other-services-h2">Pick the perfect plan for your business</h2>
 
         <maintenance-elevated-boxes></maintenance-elevated-boxes>
 
@@ -320,7 +320,7 @@ export default {
                 text-align: center;
             }
             &__heading {
-                font-size: 3rem;
+                font-size: 2.5rem;
             }
             &__subheading {
                 font-size: 2rem;

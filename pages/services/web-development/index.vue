@@ -26,8 +26,10 @@ export default {
       webDevImages: () => import('./WebDevImages.vue'),
       webDevRedesigning: () => import('./WebDevRedesigning.vue'),
       webDevOtherServices: () => import('./WebDevOtherServices.vue'),
-  }
+  },
+  scrollToTop: true
 }
+
 </script>
 
 <style lang="scss">
@@ -235,10 +237,12 @@ export default {
                 text-align: center;
             }
             &__heading {
-                font-size: 3rem;
+                font-size: 2rem;
             }
             video {
-                width: 100%;
+                width: 80%;
+                display: block;
+                margin: 0 auto;
             }
         }
 
@@ -251,7 +255,7 @@ export default {
 
         &__main-section {
             &__heading {
-                font-size: 2.5rem;
+                font-size: 2rem;
             }
             &__img {
                 width: 50%;
@@ -262,7 +266,7 @@ export default {
                 font-size: 2rem;
             }
             &__h3 {
-                font-size: 1rem;
+                font-size: 0.9rem;
             }
             &__list-wrapper {
                 flex-direction: column;
@@ -281,6 +285,9 @@ export default {
                 font-size: 0.75rem;
             }
         }
+    }
+    .slika-development{
+        width:90%;
     }
 }
 

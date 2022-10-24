@@ -3,80 +3,61 @@
         <div class="maintenance__main-section__img">
             <img src="@/assets/maintenance/Services-Maintenance-Contentupdates.png" alt="">
             <h3 class="maintenance__main-section__h3">CONTENT UPDATES</h3>
-            <p class="maintenance__main-section__text">Have your website content
-                updated as often as you
-                need while you look after
-                your business.
+            <p class="maintenance__main-section__text">Don’t worry about staying up to date with actual content, we can do that for you.
+
             </p>
         </div>
         <div class="maintenance__main-section__img">
             <img src="@/assets/maintenance/Services-Maintenance-CoreUpdates.png" alt="">
             <h3 class="maintenance__main-section__h3">CORE UPDATES</h3>
-            <p class="maintenance__main-section__text">Safely update your Wordpress
-                website theme & plugins
-                without worrying about
-                the techie part
+            <p class="maintenance__main-section__text">Worry-free updates are a must. Receive the maximum with zero worries.
+
             </p>
         </div>
         <div class="maintenance__main-section__img">
             <img src="@/assets/maintenance/Services-Maintenance-Backups.png" alt="">
             <h3 class="maintenance__main-section__h3">BACKUPS</h3>
             <p class="maintenance__main-section__text">Weekly od Daily backups
-                depending on the size of
-                your website to make sure that
-                you won’t loose any data
+                Your data is too important for you to lose it, that is why we do regular backups.
+
             </p>
         </div>
         <div class="maintenance__main-section__img">
             <img src="@/assets/maintenance/Services-Maintenance-Speedopt.png" alt="">
             <h3 class="maintenance__main-section__h3">SPEED OPTIMIZATION</h3>
-            <p class="maintenance__main-section__text">Fast websites keep your visitors
-                onsite reducing bounce rates
-                and higher ranking
-                on Google
+            <p class="maintenance__main-section__text">Watch our team make your website high-quality and fast as lighting at the same time.
+
             </p>
         </div>
         <div class="maintenance__main-section__img">
             <img src="@/assets/maintenance/Services-Maintenance-Security.png" alt="">
             <h3 class="maintenance__main-section__h3">SECURITY</h3>
-            <p class="maintenance__main-section__text">We will optimize your website
-                security to protect it
-                from attacks and recover it
-                from hacks.
+            <p class="maintenance__main-section__text">Stay safe, and we will be your shield against cyber-attacks and nasty hacks.
+
             </p>
         </div>
         <div class="maintenance__main-section__img">
             <img src="@/assets/maintenance/Services-Maintenance-Themesnplugins.png" alt="">
-            <h3 class="maintenance__main-section__h3">THEMES & PLUGINS</h3>
-            <p class="maintenance__main-section__text">Not sure what theme would
-                suit your project or what
-                plugins you need? We have
-                you covered.
+            <h3 class="maintenance__main-section__h3">THEMES</h3>
+            <p class="maintenance__main-section__text">Not sure what theme you should go with? Don’t worry, we have got your back.
             </p>
         </div>
         <div class="maintenance__main-section__img">
             <img src="@/assets/maintenance/Services-Maintenance-Hostinganddomain.png" alt="">
             <h3 class="maintenance__main-section__h3">HOSTING & DOMAIN</h3>
-            <p class="maintenance__main-section__text">New website? Domain
-                registration and hosting
-                setup on our servers
+            <p class="maintenance__main-section__text">Got a completely new website? Let’s talk, our servers are waiting for you.
             </p>
         </div>
         <div class="maintenance__main-section__img">
             <img src="@/assets/maintenance/Services-Maintenance-CustomTweaks.png" alt="">
             <h3 class="maintenance__main-section__h3">CUSTOM TWEAKS</h3>
-            <p class="maintenance__main-section__text">Unlimited small changes to
-                keep your site fresh and up
-                to date with your business needs.
+            <p class="maintenance__main-section__text">Keep up to date with your competition with our custom tweaks service.
             </p>
         </div>
         <div class="maintenance__main-section__img">
             <img src="@/assets/maintenance/Services-Maintenance-ChatSupport.png" alt="">
             <h3 class="maintenance__main-section__h3">CHAT SUPPORT</h3>
-            <p class="maintenance__main-section__text">Daily chat support for any other
-                issues that might appear that
-                its included or not in your plan.
-            </p>
+            <p class="maintenance__main-section__text">Need help? Our professionals are always here for any questions you may have.</p>
         </div>
     </div>
 </template>

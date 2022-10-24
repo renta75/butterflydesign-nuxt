@@ -3,10 +3,10 @@
         <div class="container">
             <div class="graphic-design__quote-section__quote-wrapper quote_div">
                 <p class="graphic-design__quote-section__quote">
-                    Good design’s not about what medium you’re working in. It’s about thinking hard about what you want to do and what you have to work with before you start.
+                    If we want users to like our software, we should design it to behave like a likable person: respectful, generous, and helpful.
                 </p>
 
-                <p class="graphic-design__quote-section__quote">Susan Kare</p>
+                <p class="graphic-design__quote-section__quote">Alan Cooper</p>
             </div>
 
             <div class="graphic-design__quote-section__quote-img">

@@ -1,54 +1,18 @@
 <template>
     <div class="container section-accordions">
-        <h2 class="section-accordions__heading">Creative solutions for smart businesses</h2>
+        <h2 class="section-accordions__heading">
+Making your online shop into a piece of art
+</h2>
 
         <div class="section-accordions__wrapper">
             <vsa-list>
                 <vsa-item>
-                    <vsa-heading>
+                    <vsa-heading class="e-commerce__intro__heading e-com-header">
                     Creative solutions
                     </vsa-heading>
 
-                    <vsa-content>
-                    A poor design will have a negative impact to your
-                    customers. Your users have to love the look and
-                    the user interface of your website.
-                    </vsa-content>
-                </vsa-item>
-
-                <vsa-item>
-                    <vsa-heading>
-                    Advanced search
-                    </vsa-heading>
-
-                    <vsa-content>
-                    A poor design will have a negative impact to your
-                    customers. Your users have to love the look and
-                    the user interface of your website.
-                    </vsa-content>
-                </vsa-item>
-
-                <vsa-item>
-                    <vsa-heading>
-                    Online Payments
-                    </vsa-heading>
-
-                    <vsa-content>
-                    A poor design will have a negative impact to your
-                    customers. Your users have to love the look and
-                    the user interface of your website.
-                    </vsa-content>
-                </vsa-item>
-
-                <vsa-item>
-                    <vsa-heading>
-                    User registration
-                    </vsa-heading>
-
-                    <vsa-content>
-                    A poor design will have a negative impact to your
-                    customers. Your users have to love the look and
-                    the user interface of your website.
+                    <vsa-content class="e-commerce__intro__text e-content">
+                        Let’s be honest, visual identity is a crucial part of a booming business. If we look at the law of first impressions, they matter greatly. The same rule applies to the visualization of your brand and the website that represents it. Trends are states that come and pass but there are ones that last. That is why our Butterfly Design team aims to help you build an outstanding, and long-lasting visual identity that both you, and your users will fall in love with.
                     </vsa-content>
                 </vsa-item>
             </vsa-list>

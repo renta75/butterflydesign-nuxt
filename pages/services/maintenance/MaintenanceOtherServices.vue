@@ -1,6 +1,6 @@
 <template>
     <div class="maintenance__main-section__other-services">
-        <h2 class="maintenance__main-section__other-services-h2">Check other services</h2>
+        <h2 class="maintenance__main-section__other-services-h2">Our other services</h2>
 
         <div class="maintenance__main-section__other-services-wrapper">
             <NuxtLink to="/services/web-development" class="maintenance__main-section__other-service">

@@ -1,4 +1,4 @@
-// eslint-disable-next-line vue/multi-word-component-names
+
 <template>
 	<nav class="footer">
 		<div class="container footer__wrapper">
@@ -17,13 +17,6 @@
                 <NuxtLink to="/services/graphic-design" class="footer__text"><span>Graphic design</span></NuxtLink>
             </div>
 
-            <div class="footer__resources-wrapper">
-                <h3 class="footer__services-heading">Resources</h3>
-                <span class="footer__text">FAQ</span>
-                <span class="footer__text">Privacy Policy</span>
-                <span class="footer__text">Terms and Conditions</span>
-            </div>
-
             <div class="footer__newsletter-wrapper">
                 <h3 class="footer__services-heading">Newsletter</h3>
                 <p class="footer__text">Subscribe for new and great deals</p>
@@ -33,8 +26,16 @@
                     <div class="footer__button"><span>GO</span></div>
                 </div>
             </div>
-        </div>
+            
+            <div class="footer__resources-wrapper removeable">
+                <h3 class="footer__services-heading">Resources</h3>
+                <span class="footer__text">FAQ</span>
+                <span class="footer__text">Privacy Policy</span>
+                <span class="footer__text">Terms and Conditions</span>
+            </div>
 
+           
+        </div>
         <div class="footer__icons">
             <img src="@/assets/contact/Icon-Facebook.svg" alt="">
             <img src="@/assets/contact/Icon-Instagram.svg" alt="">
@@ -42,11 +43,16 @@
             <img src="@/assets/contact/Icon-Twitter.svg" alt="">
             <img src="@/assets/contact/Icon-Youtube.svg" alt="">
         </div>
-
         <p class="footer__copy">&copy; 2022 Butterfly Design LLC</p>
 	</nav>
 </template>
 
+
+<script>
+  export default {
+    scrollToTop: true
+  }
+</script>
 <style lang="scss">
     @import '@/assets/scss/_variables.scss';
     @import '@/assets/scss/_mixins.scss';
@@ -145,6 +151,10 @@
                 display: none;
             }
         }
+    }
+    .removeable{
+       opacity: 0;
+       visibility: hidden;
     }
     </style>
 

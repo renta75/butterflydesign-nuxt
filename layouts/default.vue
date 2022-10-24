@@ -2,9 +2,9 @@
   <div class="website-wrapper">
     <header-global class="header"/>
     <transition name="fade" mode="out-in" >
-      <Nuxt />
+      <Nuxt @hook:rendered="makeSomeStuff" />
     </transition>
-    <footer-global class="footer" />
+    <footer-global v-if="mounted" class="footer"  />
   </div>
 </template>
 
@@ -17,6 +17,14 @@ export default {
     HeaderGlobal,
     FooterGlobal
   },
+  data: () => ({
+    mounted: false
+  }),
+  methods: {
+    makeSomeStuff() {
+      this.mounted = true;
+    }
+  }, 
   metaInfo: {
     title: "Butterfly Design",
     meta: [
